@@ -7,7 +7,7 @@ import {
   Home,
   Grid3x3,
   List,
-  Plus
+  Plus,
   Bookmark,
   Eye,
   Phone,
