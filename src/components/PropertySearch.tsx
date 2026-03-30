@@ -7,7 +7,7 @@ import {
   Home,
   Grid3x3,
   List,
-  Plus,
+  Plus
   Bookmark,
   Eye,
   Phone,
@@ -216,7 +216,7 @@ export default function PropertySearch() {
     }));
   };
 
-  const handleMortgageChange = (e: React.ChangeEvent<HTMLStlectElement>) => {
+  const handleMortgageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setFilterState((prev) => ({
       ...prev,
       mortgageStatus: e.target.value as 'all' | 'mortgaged' | 'clear',
